@@ -1,0 +1,59 @@
+/* INDEX SPECIFIC */
+
+#landing-container {
+	background: url('../img/anthonydavis.jpg');
+	width: 100%;
+	height: 100%;
+}
+
+#landing-overlay {
+	background-color: #000;
+	opacity: 0.5;
+	width: 100%;
+	height: 100%;
+}
+
+#logo-container {
+	/*background: url('../img/basketball.png');*/
+	position: absolute;
+	top: 100%;
+	right: 0%;
+	margin-top: -200px;
+	margin-right: 50px; }
+
+#logo {
+	background-color: #FA8320;
+	display: inline-block;;
+	color: #000;
+	font-weight: 800;
+	font-size: 96pt;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+#tagline {
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 12pt;
+	line-height: 20pt;
+	display: inline-block;
+	color: #FA8320;
+	text-align: right;
+	letter-spacing: 3px;
+}
+.player-container{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+#player-one-portrait{
+	background: url('../img/jamesharden.png');
+}
+
+#player-two-portrait{
+	background: url('../img/kobebryant.png');
+}
+
+h1 {
+	margin-right: 10px;
+}
