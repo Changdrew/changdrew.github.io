@@ -1,17 +1,12 @@
+/* Universal CSS */
 
-
-/* #FED82E is the precide shade of yellow we'll be using. */
-
-/* UNIVERSAL CSS */
-
-/*Importing OPEN SANS, the font we're using */
 @import url(<link href=http://fonts.googleapis.com/css?family=Duru+Sans);
 
 
 html, body {
 	font-family: Duru Sans, sans-serif;
 	margin: 0px;
-	background: #333;
+	background: #fff;
 	-webkit-backface-visibility: hidden;
 }
 
