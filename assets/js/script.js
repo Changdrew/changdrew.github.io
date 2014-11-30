@@ -36,6 +36,6 @@ $(document).ready(function() {
 	$("#header-container").click(function(){
 
 	});
-
+	$('#bar').waypoint('sticky');
 
 }

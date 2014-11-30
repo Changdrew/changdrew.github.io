@@ -6,7 +6,7 @@
 html, body {
 	font-family: Duru Sans, sans-serif;
 	margin: 0px;
-	background: #fff;
+	background: #999999  ;
 	-webkit-backface-visibility: hidden;
 }
 
@@ -14,24 +14,50 @@ div {
 	display: block;
 }
 
+.header{
+	position: relative;
+	
+	height: 160px;
+	cursor: pointer;
+}
+#instructions{
+	font-size: 35px;
+}
+.eastern-banner{
+	position: relative;
+	width: 35%;
+	height: 150px;
+}
+.western-banner{
+	position: relative;
+
+	width: 35%;
+	height: 150px;
+}
+#bar{
+	
+	width: 100%;
+	background: #666C3F;
+	color: #fff;
+	z-index: 10;
+}
 #nav {
-	position: fixed;
+	/*position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 20px;
-	background: #FA8320;
+	background: #666C3F ;
 	padding: 10px;
-	border-bottom: 1px #000 solid;
-}
+	border-bottom: 1px #000 solid;*/
+	color: #fff;
 
-#nav a:link, #nav a:visited {
-	text-transform: uppercase;
-	text-decoration: none;
-	font-size: 10pt;
-	font-weight: 800;
-	margin: 15px;
-	color: #000;
+}
+#nav-item{
+	font-size: 13px;
+	color: #fff;
+	transition:;
+	-webkit-transition: linear 0.2s;
 }
 
 #nav a:hover {
@@ -40,13 +66,12 @@ div {
 
 /* large headers */
 h1 {
-	background-color: #FA8320;
+	background-color: #666C3F ;
 	padding: 20px;
 	padding-left: 20px;
 	padding-right: 20px;
 	text-transform: uppercase;
-	font-weight: 800; 
-	font-size: 36pt;
+ 
 	display: inline-block;
 	margin-bottom: -10px;
 }
@@ -89,7 +114,7 @@ h3 {
 a:link, a:visited {
 	text-decoration: none;
 	font-weight: bold;
-	color: #666;
+	color: #fff;
 }
 
 a:hover {
@@ -103,51 +128,4 @@ footer {
 	font-weight: 400;
 	font-size: 9pt;
 	color: #AAA;
-}
-
-.white-popup {
-  position: relative;
-  background: #FFF;
-  padding: 25px;
-  width: auto;
-  max-width: 600px;
-  margin: 0 auto;
-  text-align: center;
-  box-shadow: inset 0px 0px 20px 5px rgba(75,75,75,0.75);
-}
-
-
-form {
-	width: 500px;
-	text-align: center;
-}
-
-.textfield {
-	width: 500px;
-	height: 50px;
-}
-
-
-/* BORDER */
-
-#content-gradient-divider {
-	height: 64px;
-	background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(51,51,51,1) 100%);
-}
-
-#content-divider {
-	height: 16px;
-	background: #333;
-}
-
-div#content-container {
-    margin: 0px auto;
-    width: 1300px;
-    background: white;
-    box-shadow: inset 0px 0px 20px 5px rgba(100,100,100,0.5);
-    height: 1286px;
-}
-
-.main-title-spacer {
-	height: 32px;
 }
