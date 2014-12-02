@@ -1,9 +1,15 @@
 /* INDEX SPECIFIC */
 #instructions{
 	font-size: 35px;
-	border: 100px #FFD700;
+	font-style: oblique;
 }
-
+#curr-year{
+	color: orange;
+	font-size: 24px;
+	font-weight: 600;
+	position: absolute;
+	-webkit-transition: all 0.3s;
+}
 #playoff-container{
 	position: absolute;
 	width: 100%;
@@ -15,16 +21,20 @@
 	border: 10px #FFD700;
 }
 .BOS, .CLE, .DET, .MIL, .NYK, .ORL, .PHI{
-	display: none
+	display: none;
+	-webkit-transition: all 0.3s;
 }
 .ATL, .BRK, .CHA, .CHI, .IND, .MIA, .TOR, .WAS{
 	opacity: 1;
+	-webkit-transition: all 0.3s;
 }
 .SAS, .OKC, .LAC, .HOU, .POR, .GSW, .MEM, .DAL{
 	opacity: 1;
+	-webkit-transition: all 0.3s;
 }
 .PHO, .SAC, .DEN, .LAL, .MIN, .UTA, .NOP{
 	display: none;
+	-webkit-transition: all 0.3s;
 }
 
 /*ol{

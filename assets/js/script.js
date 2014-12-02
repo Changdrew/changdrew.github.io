@@ -47,8 +47,26 @@ $(document).ready(function() {
 		DAL: [true, true, true, true, true, true, true, true, true, false, true],
 		DET: [true, true, true, true, true, true, false, false, false, false, false],
 		GSW: [false, false, false, true, false, false, false, false, false, true, true],
-		HOU: [true, true, false, true, true, true, false, false, false, true, true]
-
+		HOU: [true, true, false, true, true, true, false, false, false, true, true],
+		IND: [true, true, true, false, false, false, false, true, true, true, true],
+		LAC: [false, false, true, false, false, false, false, false, true, true, true],
+		LAL: [true, false, true, true, true, true, true, true, true, true, false],
+		MEM: [true, true, true, false, false, false, false, true, true, true, true],
+		MIA: [true, true, true, true, false, true, true, true, true, true, true],
+		MIL: [true, false, true, false, false, false, true, false, false, true, false],
+		MIN: [true, false, false, false, false, false, false, false, false, false, false],
+		NOP: [true, false, false, false, true, true, false, true, false, false, false],
+		NYK: [true, false, false, false, false, false, false, true, true, true, false],
+		OKC: [false, true, false, false, false, false, true, true, true, true, true],
+		ORL: [false, false, false, true, true, true, true, true, true, false, false],
+		PHI: [false, true, false, false, true, true, false, true, true, false, false],
+		PHO: [false, true, true, true, true, false, true, false, false, false, false],
+		POR: [false, false, false, false, false, true, true, true, false, false, true],
+		SAC: [true, true, true, false, false, false, false, false, false, false, false],
+		SAS: [true, true, true, true, true, true, true, true, true, true, true],
+		TOR: [false, false, false, true, true, false, false, false, false, false, true],
+		UTA: [false, false, false, true, true, true, true, false, true, false, false],
+		WAS: [false, true, true, true, true, false, false, false, false, false, true]
 	};
 
 
@@ -61,11 +79,11 @@ $(document).ready(function() {
 			$("#curr-year").text(2000 + curr_year);
 			for (var team in all_teams){
 				if (all_teams[team][curr_year - 4] == true){
-					$("." + team).slideDown();
+					$("." + team).show();
 					/*$(".CHI").hide();*/
 				}
 				else{
-					$("." + team).slideUp();
+					$("." + team).hide();
 				}
 			}
 
@@ -84,10 +102,10 @@ $(document).ready(function() {
 			for (var team in all_teams){
 				
 				if (all_teams[team][curr_year - 4]){
-					$("." + team).slideDown();
+					$("." + team).show();
 				}
 				else{
-					$("." + team).slideUp();
+					$("." + team).hide();
 				}
 			}
 
