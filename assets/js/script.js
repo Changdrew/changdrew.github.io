@@ -79,11 +79,11 @@ $(document).ready(function() {
 			$("#curr-year").text(2000 + curr_year);
 			for (var team in all_teams){
 				if (all_teams[team][curr_year - 4] == true){
-					$("." + team).show();
+					$("." + team).css("opacity", 1);
 					/*$(".CHI").hide();*/
 				}
 				else{
-					$("." + team).hide();
+					$("." + team).css("opacity", 0.2);
 				}
 			}
 
@@ -102,10 +102,10 @@ $(document).ready(function() {
 			for (var team in all_teams){
 				
 				if (all_teams[team][curr_year - 4]){
-					$("." + team).show();
+					$("." + team).css("opacity", 1);
 				}
 				else{
-					$("." + team).hide();
+					$("." + team).css("opacity", 0.2);
 				}
 			}
 

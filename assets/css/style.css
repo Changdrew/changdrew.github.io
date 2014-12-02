@@ -69,7 +69,7 @@ h1 {
 	padding-right: 20px;
 	text-transform: uppercase;
  
-	display: inline-block;
+	display: block;
 	margin-bottom: -10px;
 }
 
@@ -83,7 +83,7 @@ h2 {
 	text-transform: uppercase;
 	font-weight: 800;
 	font-size: 24pt;
-	display: inline-block;
+	display: block;
 	margin-bottom: -8px;
 	line-height: 30px;
 }
@@ -152,4 +152,8 @@ footer{
 	left:0;
 	color:#fff;
 	
+}
+p {
+	margin-left: 50px;
+	margin-right: 50px;
 }
