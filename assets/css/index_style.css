@@ -1,1 +1,90 @@
 /* INDEX SPECIFIC */
+#instructions{
+	font-size: 35px;
+	border: 100px #FFD700;
+}
+
+#playoff-container{
+	position: absolute;
+	width: 100%;
+}
+#east-playoffs{
+	width: 500px;
+	margin: 10px;
+	display: inline-block;
+	border: 10px #FFD700;
+}
+.BOS, .CLE, .DET, .MIL, .NYK, .ORL, .PHI{
+	display: none
+}
+.ATL, .BRK, .CHA, .CHI, .IND, .MIA, .TOR, .WAS{
+	opacity: 1;
+}
+.SAS, .OKC, .LAC, .HOU, .POR, .GSW, .MEM, .DAL{
+	opacity: 1;
+}
+.PHO, .SAC, .DEN, .LAL, .MIN, .UTA, .NOP{
+	display: none;
+}
+
+/*ol{
+	color: #ccc;
+	list-style-type: none;
+}
+ol li {
+	position: relative;
+	font: bold italic 45px/1.5;
+}
+li p {
+	font: 12px/1.5;
+	padding-left: 60px;
+	color: #000099;
+}*/
+
+
+#west-playoffs{
+	width: 500px;
+	margin: 10px;
+	display: inline-block;
+}
+
+/*.img-scaled {
+	width: 100%;
+	height: 100%;
+}
+
+.img-scaled-wh {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}*/
+#button-container{
+	width:100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+}
+#left-year {
+    position: relative;
+    width: 20px;
+    height: 31px;
+    top: 50%;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    z-index: 10;
+    display: inline-block;
+}
+
+/* Styling for the carousel next button */
+#right-year {
+    position: relative;
+    width: 20px;
+    height: 31px;
+    top: 50%;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    z-index: 10;
+    display: inline-block;
+    top: 3px;
+}
