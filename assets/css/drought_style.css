@@ -1,0 +1,37 @@
+/* Styling for drought page */
+.MIN, .SAC, .DET{
+	cursor: pointer;
+}
+#sac-container{
+	top: 100px;
+	display: inline-block;
+	position: absolute;
+}
+
+.ricky{
+	display: none;
+	margin-left: 45%;
+	width: 50%;
+}
+.BOOGIE{
+	display: none;
+	width: 50%;
+	margin-left: 45%;
+	vertical-align: middle;
+}
+.drummond{
+	display: none;
+	width: 50%;
+	margin-left: 45%;
+}
+.sac-words, .min-words, .det-words{
+	display: none;
+	font-size: 40px;
+	position: relative;
+	margin-top: 50px;
+}
+
+#min-container{
+	display: inline-block;
+	overflow: hidden;
+}

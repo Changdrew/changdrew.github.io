@@ -27,4 +27,28 @@ $(document).ready(function() {
 		}
 	);
 
+	$(".arenas").hover(
+		function(){
+			this.src = 'assets/img/arenascrazy.jpg';
+		},
+		function(){
+			this.src = 'assets/img/arenasnormal.jpg';
+		}
+	);
+	$(".artest").hover(
+		function(){
+			this.src = 'assets/img/artestcrazy.jpg';
+		},
+		function(){
+			this.src = 'assets/img/artestnormal.jpg';
+		}
+	);
+	$(".sprewell").hover(
+		function(){
+			this.src = 'assets/img/sprewellcrazy.jpg';
+		},
+		function(){
+			this.src = 'assets/img/sprewellnormal.jpg';
+		}
+	);	
 });
